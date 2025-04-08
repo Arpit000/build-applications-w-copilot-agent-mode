@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* General styles */
+body {
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333; /* Dark text color */
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation menu */
+.navbar {
+  background-color: #007bff; /* Blue background */
+  color: white;
+}
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+.navbar-nav .nav-link {
+  color: white;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffdd57; /* Yellow on hover */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #0056b3; /* Dark blue */
+}
+
+/* Tables */
+.table {
+  background-color: #ffffff; /* White background */
+  border: 1px solid #dee2e6;
+}
+.table thead {
+  background-color: #007bff; /* Blue header */
+  color: white;
+}
+.table tbody tr:hover {
+  background-color: #f1f1f1; /* Light gray on hover */
+}
+
+/* Buttons */
+.btn {
+  background-color: #007bff; /* Blue button */
+  color: white;
+  border: none;
+}
+.btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Favicon */
+/* No specific CSS needed for favicon */
